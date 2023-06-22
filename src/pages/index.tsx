@@ -14,6 +14,7 @@ import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { CTA } from '../components/CTA'
 import { Footer } from '../components/Footer'
+import Footer2 from '../components/Footer2'
 
 const Index = () => (
   <Container height="100vh">
@@ -49,7 +50,8 @@ const Index = () => (
     <Footer>
       <Text>Next ❤️ Chakra</Text>
     </Footer>
-    <CTA />
+    <Footer2 />
+    {/* <CTA /> */}
   </Container>
 )
 
