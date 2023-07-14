@@ -2,24 +2,27 @@ import { Text, Stack, Heading, Center } from '@chakra-ui/react'
 
 import { MemberCard } from '../components/MemberCard'
 import { Container } from '../components/Container'
-import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
-import { CTA } from '../components/CTA'
-import { Footer } from '../components/Footer'
+import Footer from '../components/Footer'
 
 const Index = () => (
-  <Container height="100vh">
-    <Main mt={0}>
-      <Center>
+  <>
+    <Container minH={'100vh'}>
+      <Center mt={'6em'}>
         <Heading>Members</Heading>
       </Center>
-      <Center>
-        <Text color="text">
-          ここに乗るメンバーの情報を募集しています！Discordでご連絡ください。
+      <Center mt={'2em'}>
+        <Text color={'text'}>
+          ここに乗るメンバーの情報を募集しています！ Discordにてご連絡ください。
         </Text>
       </Center>
-      <Center>
-        <Stack spacing={'100px'} direction={['column', 'row']}>
+      <Center mt={'2em'}>
+        <Stack
+          spacing={'100px'}
+          direction={['column', 'row']}
+          display={'flex'}
+          alignItems={'flex-start'}
+        >
           <MemberCard
             name={'asobiyaちゃん'}
             twitter={'asobiya_dao'}
@@ -28,20 +31,20 @@ const Index = () => (
           />
           <MemberCard
             name={'karawapo'}
+            avatar={'avatar-karawapoeth.png'}
             discord={'karawapo'}
             twitter={'karawapoeth'}
             skills={'替え歌, frontend, web3'}
+            bio={'謎の実在人物'}
           />
         </Stack>
       </Center>
-    </Main>
-
-    <DarkModeSwitch />
-    <Footer>
-      <Text>Next ❤️ Chakra</Text>
-    </Footer>
-    <CTA />
-  </Container>
+    </Container>
+    <Container>
+      <Footer />
+      <DarkModeSwitch />
+    </Container>
+  </>
 )
 
 export default Index
