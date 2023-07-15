@@ -1,9 +1,9 @@
 import { Text, Stack, Heading, Center } from '@chakra-ui/react'
 
-import { MemberCard } from '../components/MemberCard'
-import { Container } from '../components/Container'
-import { DarkModeSwitch } from '../components/DarkModeSwitch'
-import Footer from '../components/Footer'
+import { MemberCard } from '@/components/MemberCard'
+import { Container } from '@/components/Container'
+import { DarkModeSwitch } from '@/components/DarkModeSwitch'
+import Footer from '@/components/Footer'
 
 const Index = () => (
   <>
