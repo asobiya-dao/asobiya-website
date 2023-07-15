@@ -2,11 +2,12 @@ import { Text, Stack, Heading, Center } from '@chakra-ui/react'
 
 import { MemberCard } from '@/components/MemberCard'
 import { Container } from '@/components/Container'
-import { DarkModeSwitch } from '@/components/DarkModeSwitch'
+import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 
 const Index = () => (
   <>
+    <NavBar />
     <Container minH={'100vh'}>
       <Center mt={'6em'}>
         <Heading>Members</Heading>
@@ -42,7 +43,6 @@ const Index = () => (
     </Container>
     <Container>
       <Footer />
-      <DarkModeSwitch />
     </Container>
   </>
 )
