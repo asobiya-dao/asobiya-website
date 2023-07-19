@@ -46,6 +46,14 @@ const Index = () => (
             skills={'Meme, Guitar, 散歩, 聞き上手'}
             bio={'asobiya Founder'}
           />
+          <MemberCard
+            name={'A.J. えーじぇい'}
+            avatar={'avatar-aj.jpg'}
+            discord={'a.j.official'}
+            twitter={'JanadoNovel'}
+            skills={'絵描き, DTM, バイク整備 '}
+            bio={'自律分散型絵描き'}
+          />
         </Stack>
       </Center>
     </Container>
