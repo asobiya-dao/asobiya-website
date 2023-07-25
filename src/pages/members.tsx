@@ -31,6 +31,22 @@ const Index = () => (
             bio={'Proud member of asobiya'}
           />
           <MemberCard
+            name={'shokaji｜しょーかじ'}
+            avatar={'avatar-shokaji.jpg'}
+            discord={'shokaji'}
+            twitter={'shokaji_z'}
+            skills={'Meme, Guitar, 散歩, 聞き上手'}
+            bio={'asobiya Founder'}
+          />
+          <MemberCard
+            name={'A.J. えーじぇい'}
+            avatar={'avatar-aj.jpg'}
+            discord={'a.j.official'}
+            twitter={'JanadoNovel'}
+            skills={'絵描き, DTM, バイク整備 '}
+            bio={'自律分散型絵描き'}
+          />
+          <MemberCard
             name={'karawapo'}
             avatar={'avatar-karawapoeth.png'}
             discord={'karawapo'}
