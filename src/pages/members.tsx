@@ -1,4 +1,4 @@
-import { Text, Stack, Heading, Center } from '@chakra-ui/react'
+import { Text, Heading, Center, SimpleGrid } from '@chakra-ui/react'
 
 import { MemberCard } from '@/components/MemberCard'
 import { Container } from '@/components/Container'
@@ -18,12 +18,7 @@ const Index = () => (
         </Text>
       </Center>
       <Center mt={'2em'}>
-        <Stack
-          spacing={'100px'}
-          direction={['column', 'row']}
-          display={'flex'}
-          alignItems={'flex-start'}
-        >
+        <SimpleGrid spacing={'100px'} mt={6} columns={[1, 1, 2, 2, 3]}>
           <MemberCard
             name={'asobiyaちゃん'}
             twitter={'asobiya_dao'}
@@ -54,7 +49,7 @@ const Index = () => (
             skills={'替え歌, frontend, web3'}
             bio={'謎の実在人物'}
           />
-        </Stack>
+        </SimpleGrid>
       </Center>
     </Container>
     <Container>
