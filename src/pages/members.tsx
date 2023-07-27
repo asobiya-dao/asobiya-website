@@ -49,6 +49,14 @@ const Index = () => (
             skills={'替え歌, frontend, web3'}
             bio={'謎の実在人物'}
           />
+          <MemberCard
+            name={'Sushi yam'}
+            avatar={'avator-sushiyam.jpg'}
+            discord={'sushi yam'}
+            twitter={''}
+            skills={'田舎暮らし, 建築DIY, 発酵料理, web3'}
+            bio={'実験大好き人間'}
+          />
         </SimpleGrid>
       </Center>
     </Container>
