@@ -5,11 +5,13 @@ import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 
 const Index: NextPage = () => (
-  <Container height="100vh">
+  <>
     <NavBar />
-    <Hero />
-    <Footer />
-  </Container>
+    <Container height="100vh">
+      <Hero />
+      <Footer />
+    </Container>
+  </>
 )
 
 export default Index
