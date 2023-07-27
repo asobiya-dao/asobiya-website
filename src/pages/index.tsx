@@ -1,15 +1,17 @@
 import { NextPage } from 'next'
-import Hero from '../components/Hero'
-import { Container } from '../components/Container'
-import { DarkModeSwitch } from '../components/DarkModeSwitch'
-import Footer from '../components/Footer'
+import Hero from '@/components/Hero'
+import { Container } from '@/components/Container'
+import Footer from '@/components/Footer'
+import NavBar from '@/components/NavBar'
 
 const Index: NextPage = () => (
-  <Container height="100vh">
-    <Hero />
-    <Footer />
-    <DarkModeSwitch />
-  </Container>
+  <>
+    <NavBar />
+    <Container height="100vh">
+      <Hero />
+      <Footer />
+    </Container>
+  </>
 )
 
 export default Index
