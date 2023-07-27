@@ -1,39 +1,23 @@
-# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui) and TypeScript
+# asobiya-website
 
-This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app with TypeScript.
+A public website for the asobiya community. Made with Next.js using TypeScript and Chakra UI.
 
-Next.js and chakra-ui have built-in TypeScript declarations, so we'll get autocompletion for their modules straight away.
+Hey there, awesome asobiya member! Welcome to the Asobiya website project's GitHub repository. We're so glad you're here to help us make this project shine! This README will guide you through the process of contributing to our open-source web development project in the most playful way possible.
 
-We are connecting the Next.js `_app.js` with `chakra-ui`'s Provider and theme so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
+## Setting up your local environment
 
-## Deploy your own
+To get started, follow these simple steps:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-chakra-ui)
+1. Please use `yarn` — convert any `npm` or `pnmp` commands you would use to `yarn` commands
+2. Clone the repository (fork it first if needed)
+3. `cd` to your repository and run `yarn` to install all modules
+4. Run `yarn dev` to start a live reloading server while you work
+5. Before committing your work, please run `yarn build` to make sure that your code will build
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui&project-name=with-chakra-ui&repository-name=with-chakra-ui)
+## Contribution Guidelines
 
-## How to use
+Let your creativity flow and keep these guidelines in mind:
 
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-chakra-ui with-chakra-ui-app
-```
-
-```bash
-yarn create next-app --example with-chakra-ui with-chakra-ui-app
-```
-
-```bash
-pnpm create next-app --example with-chakra-ui with-chakra-ui-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-Chakra has supported Gradients and RTL in `v1.1`. To utilize RTL, [add RTL direction and swap](https://chakra-ui.com/docs/features/rtl-support).
-
-If you don't have multi-direction app, you should make `<Html lang="ar" dir="rtl">` inside `_document.ts`.
+Create a new branch for every feature or bug fix you're working on. Give it a playful name to inspire your fellow contributors!
+Don't be afraid to experiment! Try out new ideas, and if something doesn't work, just shake it off (like Taylor Swift) and try something different.
+Write clean and understandable code. Remember, future contributors will appreciate your clarity.

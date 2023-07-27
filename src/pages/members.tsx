@@ -1,4 +1,4 @@
-import { Text, Stack, Heading, Center } from '@chakra-ui/react'
+import { Text, Heading, Center, SimpleGrid } from '@chakra-ui/react'
 
 import { MemberCard } from '@/components/MemberCard'
 import { Container } from '@/components/Container'
@@ -18,17 +18,28 @@ const Index = () => (
         </Text>
       </Center>
       <Center mt={'2em'}>
-        <Stack
-          spacing={'100px'}
-          direction={['column', 'row']}
-          display={'flex'}
-          alignItems={'flex-start'}
-        >
+        <SimpleGrid spacing={'100px'} mt={6} columns={[1, 1, 2, 2, 3]}>
           <MemberCard
             name={'asobiyaちゃん'}
             twitter={'asobiya_dao'}
             discord={'asobiyaちゃん#7154'}
             bio={'Proud member of asobiya'}
+          />
+          <MemberCard
+            name={'shokaji｜しょーかじ'}
+            avatar={'avatar-shokaji.jpg'}
+            discord={'shokaji'}
+            twitter={'shokaji_z'}
+            skills={'Meme, Guitar, 散歩, 聞き上手'}
+            bio={'asobiya Founder'}
+          />
+          <MemberCard
+            name={'A.J. えーじぇい'}
+            avatar={'avatar-aj.jpg'}
+            discord={'a.j.official'}
+            twitter={'JanadoNovel'}
+            skills={'絵描き, DTM, バイク整備 '}
+            bio={'自律分散型絵描き'}
           />
           <MemberCard
             name={'karawapo'}
@@ -46,7 +57,7 @@ const Index = () => (
             skills={'田舎暮らし, 建築DIY, 発酵料理, web3'}
             bio={'実験大好き人間'}
           />
-        </Stack>
+        </SimpleGrid>
       </Center>
     </Container>
     <Container>
