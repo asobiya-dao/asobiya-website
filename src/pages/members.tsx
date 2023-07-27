@@ -46,7 +46,7 @@ const Index = () => (
             skills={'田舎暮らし, 建築DIY, 発酵料理, web3'}
             bio={'実験大好き人間'}
           />
-        </Stack>
+        </SimpleGrid>
       </Center>
     </Container>
     <Container>
