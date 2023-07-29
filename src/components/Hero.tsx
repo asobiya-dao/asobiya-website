@@ -5,7 +5,7 @@ export default function WithBackgroundImage() {
     <Flex
       w={'full'}
       h={'80vh'}
-      backgroundImage={'/images/hero.svg'}
+      backgroundImage={'/images/logo.svg'}
       backgroundSize={'contain'}
       backgroundPosition={'center center'}
       backgroundRepeat={'no-repeat'}
