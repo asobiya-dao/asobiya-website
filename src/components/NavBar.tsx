@@ -50,11 +50,12 @@ export default function NavBar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <Flex alignItems={'center'} justifyContent={'space-between'}>
-            <Box w={24} h={10} marginLeft={8}>
+          <Flex alignItems={'center'}>
+            <Box w={24} h={10} marginLeft={8} marginRight={7}>
+              {/* marginRightを追加 */}
               <img
                 src="/images/logo.svg"
-                alt="ロゴ"
+                alt="logo"
                 height="100%"
                 width="100%"
               />
