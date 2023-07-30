@@ -10,6 +10,7 @@ import {
   useColorModeValue,
   Stack,
   useColorMode,
+  Image,
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons'
 
@@ -50,8 +51,15 @@ export default function NavBar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={8} alignItems={'center'}>
-            <Box>あそびや</Box>
+          <Flex alignItems={'center'}>
+            <Box w={24} h={10} marginLeft={8} marginRight={7}>
+              <Image
+                src="/images/logo.svg"
+                alt="logo"
+                height="100%"
+                width="100%"
+              />
+            </Box>
             <HStack
               as={'nav'}
               spacing={4}
@@ -63,7 +71,7 @@ export default function NavBar() {
                 </NavLink>
               ))}
             </HStack>
-          </HStack>
+          </Flex>
           <Flex alignItems={'center'}>
             <Button onClick={toggleColorMode}>
               {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
