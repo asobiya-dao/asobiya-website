@@ -10,6 +10,7 @@ import {
   useColorModeValue,
   Stack,
   useColorMode,
+  Image,
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons'
 
@@ -52,8 +53,7 @@ export default function NavBar() {
           />
           <Flex alignItems={'center'}>
             <Box w={24} h={10} marginLeft={8} marginRight={7}>
-              {/* marginRightを追加 */}
-              <img
+              <Image
                 src="/images/logo.svg"
                 alt="logo"
                 height="100%"
