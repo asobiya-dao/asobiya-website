@@ -58,6 +58,10 @@ export default function NavBar() {
                 alt="logo"
                 height="100%"
                 width="100%"
+                style={useColorModeValue(
+                  { filter: 'invert(0%)' },
+                  { filter: 'invert(100%)' }
+                )}
               />
             </Box>
             <HStack
