@@ -1,4 +1,4 @@
-import { Stack, Flex, Text, VStack, useBreakpointValue } from '@chakra-ui/react'
+import { Flex, useColorModeValue } from '@chakra-ui/react'
 
 export default function WithBackgroundImage() {
   return (
@@ -6,6 +6,10 @@ export default function WithBackgroundImage() {
       w={'full'}
       h={'80vh'}
       backgroundImage={'/images/logo.svg'}
+      style={useColorModeValue(
+        { filter: 'invert(0%)' },
+        { filter: 'invert(100%)' }
+      )}
       backgroundSize={'contain'}
       backgroundPosition={'center center'}
       backgroundRepeat={'no-repeat'}
