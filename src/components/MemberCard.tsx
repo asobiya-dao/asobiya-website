@@ -38,33 +38,18 @@ export const MemberCard = ({
         bg={useColorModeValue('white', 'gray.800')}
         boxShadow={'2xl'}
         rounded={'md'}
-        overflow={'hidden'}
+        overflow={'show'}
       >
-        {/*
-          <Image
-          h={'120px'}
-          w={'full'}
-          src={
-            'https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80'
-          }
-          objectFit={'cover'}
-        />
-        */}
-        <Box
-          w='100%'
-          h='120px'
-          bgGradient={useColorModeValue('linear(to-l, #7928CA, #FF0080)','linear(to-r, #014871, #D7EDE2)')}
-        />
-        <Flex justify={'center'} mt={-12}>
+        <Flex mt={25}></Flex>
+        <Flex justify={'center'} mt={-20}>
           <Avatar
-            size={'xl'}
+            size={'2xl'}
             src={`/images/${avatar}`}
             css={{
               border: '2px solid white',
             }}
           />
         </Flex>
-
         <Box p={6}>
           <Stack spacing={0} align={'center'} mb={5}>
             <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'}>
