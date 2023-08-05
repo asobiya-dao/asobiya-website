@@ -53,6 +53,14 @@ const members: MemberData[] = [
     skills: '田舎暮らし, 建築DIY, 発酵料理, web3',
     bio: '実験大好き人間',
   },
+  {
+    name: 'ひろふみ',
+    avatar: 'avatar-hiro.jpg',
+    discord: 'hiro.1212',
+    twitter: '',
+    skills: 'Guitar, Vocal, アウトドア, 野球, ガヤ',
+    bio: '楽しいことして生きてたい宇宙人',
+  },
 ]
 
 // Fisher–Yates shuffle algorithm
