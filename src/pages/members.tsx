@@ -66,7 +66,7 @@ const members: MemberData[] = [
     avatar: 'avator-takerun.jpg',
     discord: 'nfttakerun',
     twitter: 'nfttakerun',
-    skills: 'イベント運営, 配信MC, ネーミング',
+    skills: 'イベント企画運営, ライブ配信, ネーミング',
     bio: 'ニョロニョロ🐍',
   },
 ]
