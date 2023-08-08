@@ -11,10 +11,10 @@ const AboutAsobiya = () => {
         <Heading as="h2" size="xl" paddingBottom="20px">
           コミュニティ概要
         </Heading>
-        <Text fontSize="xl">コミュニティ名 : asobiya (読み : あそびや)</Text>{' '}
-        <Text fontSize="xl">創設日 : 2023年3月6日</Text>{' '}
-        <Text fontSize="xl">参加者 : インターネットの中で偶然繋がった人々</Text>{' '}
-        <Text fontSize="xl">参加人数 : 約50名</Text>{' '}
+        <Text fontSize="xl">コミュニティ名 : asobiya (読み : あそびや)</Text>
+        <Text fontSize="xl">創設日 : 2023年3月6日</Text>
+        <Text fontSize="xl">参加者 : インターネットの中で偶然繋がった人々</Text>
+        <Text fontSize="xl">参加人数 : 約50名</Text>
       </VStack>
     </Container>
   )
