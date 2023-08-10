@@ -1,4 +1,4 @@
-import { Heading, Text, Container, VStack } from '@chakra-ui/react'
+import { Heading, Text, Container, VStack, Link, Box } from '@chakra-ui/react'
 
 const AboutAsobiya = () => {
   return (
@@ -6,6 +6,45 @@ const AboutAsobiya = () => {
       <Heading as="h1" size="2xl">
         asobiyaについて
       </Heading>
+
+      <Box
+        position="relative"
+        width="100%"
+        height="0"
+        padding="56.2500% 0 0 0"
+        boxShadow="0 2px 8px 0 rgba(63, 69, 81, 0.16)"
+        marginTop="1.6em"
+        marginBottom="0.9em"
+        overflow="hidden"
+        borderRadius="8px"
+        willChange="transform"
+      >
+        <iframe
+          loading="lazy"
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            top: '0',
+            left: '0',
+            border: 'none',
+            padding: '0',
+            margin: '0',
+          }}
+          src="https://www.canva.com/design/DAFi4v3hzC0/view?embed"
+          allowFullScreen
+        ></iframe>
+      </Box>
+
+      <VStack paddingTop="50px" spacing="2" alignItems="flex-start">
+        <Heading as="h2" size="lg" paddingBottom="10px">
+          コミュニティ概要
+        </Heading>
+        <Text fontSize="xl">コミュニティ名 : asobiya (読み : あそびや)</Text>
+        <Text fontSize="xl">創設日 : 2023年3月6日</Text>
+        <Text fontSize="xl">参加者 : インターネットの中で偶然繋がった人々</Text>
+        <Text fontSize="xl">参加人数 : 約50名</Text>
+      </VStack>
 
       <VStack paddingTop="50px" spacing="2" alignItems="flex-start">
         <Heading as="h2" size="xl" paddingBottom="20px">
@@ -34,16 +73,6 @@ const AboutAsobiya = () => {
 
         <Text fontSize="xl">・挑戦と創造を繰り返す</Text>
         <Text fontSize="xl">・多様性のあるコミュニティ</Text>
-      </VStack>
-
-      <VStack paddingTop="50px" spacing="2" alignItems="flex-start">
-        <Heading as="h2" size="lg" paddingBottom="10px">
-          コミュニティ概要
-        </Heading>
-        <Text fontSize="xl">コミュニティ名 : asobiya (読み : あそびや)</Text>
-        <Text fontSize="xl">創設日 : 2023年3月6日</Text>
-        <Text fontSize="xl">参加者 : インターネットの中で偶然繋がった人々</Text>
-        <Text fontSize="xl">参加人数 : 約50名</Text>
       </VStack>
 
       <VStack
